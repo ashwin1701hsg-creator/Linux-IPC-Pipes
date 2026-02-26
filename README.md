@@ -24,7 +24,7 @@ Testing the C Program for the desired output.
 # PROGRAM:
 
 ## C Program that illustrate communication between two process using unnamed pipes using Linux API system calls
-
+```
 #include <stdio.h>
 #include <stdlib.h>
 #include <sys/types.h>
@@ -91,7 +91,7 @@ void client(int wfd, int rfd) {
 }
 
 
-
+```
 
 ## OUTPUT
 <img width="512" height="189" alt="image" src="https://github.com/user-attachments/assets/fe63fc10-1f19-4659-8619-8e219ee140d4" />
@@ -99,7 +99,7 @@ void client(int wfd, int rfd) {
 
 ## C Program that illustrate communication between two process using named pipes using Linux API system calls
 
-
+```
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
@@ -182,7 +182,7 @@ void client() {
 
 
 
-
+```
 ## OUTPUT
 
 <img width="512" height="189" alt="image" src="https://github.com/user-attachments/assets/79dc1137-d753-44ee-b70c-6e7d4ee2e3eb" />
